@@ -19,7 +19,7 @@ print(openai.Model.list())
 
 
 system_msg = "Jesteś specjalistą od spraw sportowych botem do odpowiadania na pytana zadane przez użytkownika"
-context = "" # fill with some context ex. json, csv or whatever
+context = "Robert Lewandowski strzelił bardzo dużo goli" # fill with some context ex. json, csv or whatever
 query = "Czy Robert Lewandowski zdobędzie nagrodę złotej piłki"
 
 prompt = f"""Na podstawie poniższego kontekstu odpowiedz na pytanie użytkownika:
