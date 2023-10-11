@@ -4,7 +4,6 @@ import openai
 # terminal:
 # MAC - export OPENAI_API_KEY=sk-...
 # WIN - setx OPENAI_API_KEY "sk..."
-# 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 - not valid
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 print(openai.Model.list())
